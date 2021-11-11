@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+.background {
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.background img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.background-overlay {
+  display: block;
+  position: absolute;
+  background: linear-gradient(0deg, #00000088 100%, #ffffff66 20%);
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "montserrat";
+  width: 100%;
+  align-items: center;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.main-text {
+  font-size: 2.8rem;
+  margin-bottom: 1.4rem;
+}
+
+.main-description {
+  font-size: 2rem;
+}
+
+.twitter {
+  background: #1da1f2;
+  display: flex;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.twitter-icon {
+  width: 22px;
+  margin-left: 0.5rem;
+}
+.scroll {
+  background: rgb(99, 11, 19);
+  display: flex;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.arrow-down {
+  font-size: 18px;
+  margin-left: 0.7rem;
+  margin-top: 0.1rem;
+}
+
+.scroll a {
+  text-decoration: none;
+  color: white;
+}
