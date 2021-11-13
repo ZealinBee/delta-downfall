@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -79,4 +93,130 @@ nav li {
 
 .x-show {
   display: block;
+}
+
+footer {
+  display: grid;
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+  background: rgb(99, 11, 19);
+  margin-top: 3rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+footer i {
+  margin-right: 1rem;
+}
+
+footer h2 {
+  font-family: "montserrat";
+  font-size: 1rem;
+}
+
+.footer-twitter {
+  display: flex;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 0.5rem;
+}
+
+.footer-discord {
+  display: flex;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 0.5rem;
+}
+
+.copyright {
+  display: flex;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  justify-self: center;
+  align-items: center;
+}
+
+.copyright i {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 900px) {
+  nav {
+    flex-direction: row;
+  }
+  .logo {
+    width: 50px;
+  }
+  .logo-text {
+    font-size: 3rem;
+    margin-left: 1.5rem;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .nav-links {
+    transform: scale(1, 1);
+    background: transparent;
+    position: relative;
+    flex-direction: row;
+    width: unset;
+    height: unset;
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+
+  .nav-links a:hover {
+    text-transform: uppercase;
+  }
+
+  .nav-links li:nth-child(4) {
+    background: rgb(99, 11, 19);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1.2rem;
+    box-shadow: 2px 2px 2px black;
+  }
+
+  /* .nav-links li:nth-child(4):hover {
+    box-shadow: 4px 4px 6px black;
+    transform: scale(1.1, 1.1);
+  } */
+
+  .nav-links a {
+    color: white;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer i {
+    margin: 1rem;
+  }
+
+  .footer-twitter {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  .footer-discord {
+    margin-bottom: 0;
+  }
+
+  .copyright i {
+    margin-right: 0.5rem;
+  }
 }
