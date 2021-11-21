@@ -125,6 +125,8 @@ main {
   box-shadow: 6px 6px 8px black;
   border-radius: 1em;
   margin-top: 1.2rem;
+  max-height: 435px;
+  object-fit: cover;
 }
 
 @media (min-width: 600px) {
@@ -138,27 +140,31 @@ main {
   }
 
   .main-text {
-    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+
+  .main-description {
+    font-size: 2rem;
   }
 
   .scroll {
     margin: auto 0;
     margin-left: 2rem;
     padding: auto 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .twitter {
     margin: auto 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .twitter-icon {
-    width: 36px;
+    width: 30px;
   }
 
   .arrow-down {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .gallery {

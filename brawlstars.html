@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Delta Downfall</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,56 +22,84 @@
       href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css"
       rel="stylesheet"
     />
-
+    <link rel="icon" href="images/logo.png">
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="hamburger">
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="bars"
-          class="burger"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 448 512"
-          color="black"
-        >
-          <path
-            fill="currentColor"
-            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-          ></path>
-        </svg>
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="times"
-          class="x"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 352 512"
-          color="black"
-        >
-          <path
-            fill="currentColor"
-            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
-          ></path>
-        </svg>
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="bars"
+        class="burger"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
+        color="black"
+      >
+        <path
+          fill="currentColor"
+          d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+        ></path>
+      </svg>
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="times"
+        class="x"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 352 512"
+        color="black"
+      >
+        <path
+          fill="currentColor"
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        ></path>
+      </svg>
+    </div>
+    <nav>
+      <img src="images/logo.jpg" alt="" class="logo" />
+      <h1 class="logo-text">
+        DELTA <span class="bold-logo-text"> DOWNFALL</span>
+      </h1>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Commission</a></li>
+        <li><a href="category.html">Art Categories</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <div class="gallery-wrapper">
+      <div class="gallery">
+        <img src="images/griff.png" alt="" class="long"/>
+        <img src="images/darryl.jpg" alt="" class="normal" />
+        <img src="images/nita.jpg" alt=""  class="normal"/>
+
+        <img src="images/meg.jpg" alt=""  class="normal"/>
+        <img src="images/maxine.png" alt=""  class="normal"/>
+        <img src="images/8-bit jukebox.jpg" alt=""  class="normal"/>
+        <img src="images/crow.jpg" alt=""  class="normal"/>
+        <img src="images/8-bit.jpg" alt=""  class="normal"/>
       </div>
-      <nav>
-        <img src="images/logo.jpg" alt="" class="logo" />
-        <h1 class="logo-text">
-          DELTA <span class="bold-logo-text"> DOWNFALL</span>
-        </h1>
-  
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Commission</a></li>
-          <li><a href="#">Art Categories</a></li>
-          <li><a href="#">Contact Me</a></li>
-        </ul>
-      </nav>
-</body>
+    </div>
+
+    <footer>
+      <div class="footer-twitter">
+        <i class="fab fa-twitter"></i>
+        <h2>Twitter</h2>
+      </div>
+      <h2 class="copyright">
+        <i class="fas fa-copyright"></i>Website Created by Zhiyuan Liu
+      </h2>
+      <div class="footer-discord">
+        <i class="fab fa-discord"></i>
+        <h2>Downfall#0336</h2>
+      </div>
+    </footer>
+  </body>
 </html>
